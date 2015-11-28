@@ -4,5 +4,4 @@ module Learn_Discrete_BayesNet
 
 include("L_DVBN.jl")
 
-
 end # module

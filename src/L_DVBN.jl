@@ -947,10 +947,12 @@ function Discretize_All(data_matrix,graph,continuous_index,cut_time)
             discrete_index[num] = i
         end
     end
+    sort_continuous = graph_to_reverse_conti_order(graph,continuous_index)
+    X = BN_discretizer_iteration_converge(data_matrix,graph,discrete_index,sort_continuous,cut_time,false)
+    edge = X[2]
+    reorder_edge = sort_disc_by_vorder(sort_continuous,edge)
 
-    X = BN_discretizer_iteration_converge(data_matrix,graph,discrete_index,continuous_index,cut_time,false)
-
-    return X
+    return reorder_edge
 end
 
 
