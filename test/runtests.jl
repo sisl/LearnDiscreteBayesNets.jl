@@ -1,4 +1,4 @@
-importall Learn_Discrete_BayesNet
+using Learn_Discrete_BayesNet
 using Base.Test
 
 # write your own tests here
