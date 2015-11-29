@@ -959,10 +959,10 @@ end
 
 function Learn_DVBN(data_matrix,continuous_index,order,u,cut_time)
     X = K2_one_iteration_discretization(order,u,data_matrix,continuous_index,cut_time,false)
-    return X
+    return (X[2],X[3])
 end
 
 function Learn_Discrete_Bayesian_Net(data_matrix,continuous_index,u,cut_time,times)
     X = K2_w_discretization(data_matrix,u,continuous_index,times,cut_time,false)
-    return X
+    return (X[2],X[3],X[1])
 end
