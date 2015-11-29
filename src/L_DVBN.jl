@@ -923,7 +923,7 @@ function K2_w_discretization(data_matrix,u,continuous_index,times,cut_time,appro
 
         for time = 1 : times
                 # Produce random sequence of indexes
-                println(("Iteration time =",time,"========================="))
+                println(("Times of K2 along with discretization method:",time))
                 order = rand_seq(length(data_matrix[1,:]))
                 iteration_result = K2_one_iteration_discretization(order,u,data_matrix,
                                                           continuous_index,cut_time,approx)
