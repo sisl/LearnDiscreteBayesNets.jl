@@ -1,4 +1,4 @@
-# Learn_Discrete_BayesNet
+# LearnDiscreteBayesNets.jl
 
 
 This package supports a learning algorithm to learn a discrete Bayesian network from continuous data. The relevant research of this package has been submitted to Machine Learning Journal (Springer).
