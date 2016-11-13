@@ -1,8 +1,6 @@
 # LearnDiscreteBayesNets.jl
 
-This package supports a learning algorithm to learn a discrete Bayesian network from continuous data. The relevant research of this package has been submitted to the Journal of Artificial Intelligence Research (JAIR).
-
-Please refer to our paper, [Learning Discrete Bayesian Networks from Continuous Data](http://arxiv.org/abs/1512.02406).
+This package supports learning discrete Bayesian networks from continuous data, following our work in [Learning Discrete Bayesian Networks from Continuous Data](http://arxiv.org/abs/1512.02406), which has been submitted to the Journal of Artificial Intelligence Research (JAIR).
 
 [![Build Status](https://travis-ci.org/sisl/LearnDiscreteBayesNets.jl.svg?branch=master)](https://travis-ci.org/sisl/LearnDiscreteBayesNets.jl)
 
